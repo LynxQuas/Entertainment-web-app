@@ -1,11 +1,13 @@
 import Search from "../components/Search";
+import TrendingAll from "../components/TrendingAll";
 import SectionContainer from "../ui/SectionContainer";
 
 const CollectionPage = () => {
     return (
         <SectionContainer>
             <Search />
-            {/* <TrendingAll/>
+            <TrendingAll />
+            {/* 
         <TrendngMovies/>
         <TrendingSeries/> */}
         </SectionContainer>

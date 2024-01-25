@@ -4,10 +4,10 @@ import Navbar from "../components/Navbar";
 const AppLayout = () => {
     return (
         <div className="flex w-screen flex-col md:flex-row">
-            <header>
+            <header className="md:w-[10rem]">
                 <Navbar />
             </header>
-            <main className="w-screen h-screen">
+            <main className="overflow-hidden">
                 <Outlet />
             </main>
         </div>
