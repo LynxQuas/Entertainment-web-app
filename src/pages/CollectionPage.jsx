@@ -1,5 +1,15 @@
+import Search from "../components/Search";
+import SectionContainer from "../ui/SectionContainer";
+
 const CollectionPage = () => {
-    return <h1>Collection Page</h1>;
+    return (
+        <SectionContainer>
+            <Search />
+            {/* <TrendingAll/>
+        <TrendngMovies/>
+        <TrendingSeries/> */}
+        </SectionContainer>
+    );
 };
 
 export default CollectionPage;
