@@ -6,7 +6,7 @@ import { MdMovieCreation } from "react-icons/md";
 
 const Navbar = () => {
     return (
-        <nav className="bg-slate-900 flex items-center text-stone-100 gap-12 p-4 md:py-10 md:flex-col md:w-[5rem] md:h-screen">
+        <nav className="bg-slate-900 flex items-center text-stone-100 gap-12 p-4 md:py-10 md:flex-col md:w-[5rem] md:min-h-screen md:h-full">
             <Link to="/">
                 <MdMovieCreation
                     style={{

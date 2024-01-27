@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 const SectionContainer = ({ children }) => {
-    return <section className="bg-[#03001a]">{children}</section>;
+    return <section>{children}</section>;
 };
 
 export default SectionContainer;

@@ -1,10 +1,7 @@
 /* eslint-disable react/prop-types */
-const MovieCart = ({ data }) => {
+const MovieCart = ({ data, className }) => {
     return (
-        <div
-            key={data.id}
-            className="min-w-[20rem] flex text-white flex-col gap-2 snap-center"
-        >
+        <div key={data.id} className={className}>
             <img
                 src={`https://image.tmdb.org/t/p/w500${data.backdrop_path}`}
                 alt={data.name ? data.name : data.title}
